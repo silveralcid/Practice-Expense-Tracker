@@ -1,5 +1,3 @@
-// This is a git test.
-
 using Expense_Tracker.Models;
 using Microsoft.EntityFrameworkCore;
 
