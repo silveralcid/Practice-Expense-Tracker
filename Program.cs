@@ -1,4 +1,4 @@
-// TUTORIAL TIME AT 00:00
+// TUTORIAL TIME AT 54:18
 
 using Expense_Tracker.Models;
 using Microsoft.EntityFrameworkCore;
