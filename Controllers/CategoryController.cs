@@ -43,7 +43,7 @@ namespace Expense_Tracker.Controllers
         }
 
         // GET: Category/AddOrEdit
-        public IActionResult AddOrEdit(int id=0)
+        public IActionResult AddOrEdit(int id = 0)
         {
             if (id == 0)
                 return View(new Category());
@@ -60,7 +60,10 @@ namespace Expense_Tracker.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(category);
+                if (category.CategoryId == 0)
+                    _context.Add(category);
+                else
+                    _context.Update(category);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
