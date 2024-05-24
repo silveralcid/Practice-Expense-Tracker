@@ -52,8 +52,6 @@ namespace Expense_Tracker.Controllers
             return View(category);
         }
 
-        
-
 
         // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
