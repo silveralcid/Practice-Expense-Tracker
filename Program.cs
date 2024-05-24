@@ -1,4 +1,4 @@
-// TUTORIAL TIME AT 01:02:08
+// TUTORIAL TIME AT 01:09:00
 // ddorEdit page url, capitalization
 // Sorting to emoji name not title
 
