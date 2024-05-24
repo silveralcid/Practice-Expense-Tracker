@@ -1,5 +1,6 @@
 // TUTORIAL TIME AT 54:18
-// Fix AddorEdit page url, capitalization
+// ddorEdit page url, capitalization
+// Sorting to emoji name not title
 
 using Expense_Tracker.Models;
 using Microsoft.EntityFrameworkCore;
