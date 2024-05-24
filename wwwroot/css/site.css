@@ -31,6 +31,18 @@ body {
     font-size: x-large;
 }
 
+/*Edit Button*/
+.btn:focus, .btn:active{
+    outline: none !important;
+    box-shadow:none;
+}
+
+/*Hyperlinks*/
+.no-a-decoration, .no-a-decoration:hover{
+    text-decoration:none;
+    color:inherit;
+}
+
 /*Grid - NEEDS COMPLETE STYLING SEE SOURCE*/
 .e-grid {
     border: 0;
