@@ -1,5 +1,5 @@
-// TUTORIAL TIME AT 01:09:00
-// ddorEdit page url, capitalization
+// TUTORIAL TIME AT 01:12:00
+// AddorEdit page url, capitalization?
 // Sorting to emoji name not title
 
 using Expense_Tracker.Models;
