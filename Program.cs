@@ -1,4 +1,4 @@
-// TUTORIAL TIME AT 01:12:00
+// TUTORIAL TIME AT 01:17:00
 // AddorEdit page url, capitalization?
 // Sorting to emoji name not title
 
