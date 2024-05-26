@@ -28,6 +28,15 @@ namespace Expense_Tracker.Models
                 return Category == null ? "" : Category.Icon + " " + Category.Title;
             }
         }
-            
+
+        [NotMapped]
+        public string? FormattedAmount
+        {
+            get
+            {
+                return ((Category == null || Category.Type == "Expense" )? "- " : "+ ") + Amount.ToString("C0");
+            }
+        }
+
     }
 }
