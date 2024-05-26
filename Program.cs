@@ -2,6 +2,7 @@
 // AddorEdit page url, capitalization?
 // Sorting to emoji name not title
 // Client side validation?
+// Issue with summing income category type
 
 using Expense_Tracker.Models;
 using Microsoft.EntityFrameworkCore;

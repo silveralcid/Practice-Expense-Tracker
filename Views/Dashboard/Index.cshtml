@@ -4,6 +4,8 @@
 
 @* Summary Widgets*@
 <div class="row mb-4">
+
+    <div class="col-md-4">
     <div class="d-flex flex-row widget summary income">
         <div class="d-flex flex-column justify-content-center p-5">
             <i class="fa-solid fa-dollar-sign fa-2xl"></i>
@@ -13,6 +15,9 @@
             <h1 class="display-6 fw-bold">@ViewBag.TotalIncome</h1>
         </div>
     </div>
+    </div>
+
+    <div class="col-md-4">
     <div class="d-flex flex-row widget summary expense">
         <div class="d-flex flex-column justify-content-center p-5">
             <i class="fa-solid fa-dollar-sign fa-2xl"></i>
@@ -22,6 +27,9 @@
             <h1 class="display-6 fw-bold">@ViewBag.TotalExpense</h1>
         </div>
     </div>
+    </div>
+
+    <div class="col-md-4">
     <div class="d-flex flex-row widget summary balance">
         <div class="d-flex flex-column justify-content-center p-5">
             <i class="fa-solid fa-dollar-sign fa-2xl"></i>
@@ -30,6 +38,7 @@
             <span class="lead">Balance</span>
             <h1 class="display-6 fw-bold">@ViewBag.Balance</h1>
         </div>
+    </div>
     </div>
 </div>
 
