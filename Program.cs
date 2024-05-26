@@ -1,6 +1,7 @@
 // TUTORIAL TIME AT 01:17:00
 // AddorEdit page url, capitalization?
 // Sorting to emoji name not title
+// Client side validation?
 
 using Expense_Tracker.Models;
 using Microsoft.EntityFrameworkCore;
