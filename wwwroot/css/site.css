@@ -244,6 +244,14 @@ img.profile-picture {
     transform: translateX(0%);
 }
 
+#sidebar.e-open #sidebar-toggler::before {
+    content: '\f100'
+}
+
+#sidebar.e-close #sidebar-toggler:before {
+    content: '\f101'
+}
+
 /*Widget*/
 .widget {
     border-radius: 1rem;
