@@ -239,6 +239,11 @@ img.profile-picture {
     display: flex;
 }
 
+#sidebar.e-sidebar.e-right.e-close {
+    visibility: visible;
+    transform: translateX(0%);
+}
+
 /*Widget*/
 .widget {
     border-radius: 1rem;
