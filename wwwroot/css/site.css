@@ -72,6 +72,18 @@ body {
         .e-grid .e-gridheader .e-headercell {
         }
 
+/*Logo*/
+.logo-wrapper {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.app-logo {
+    padding: 10px 10px;
+}
+
+
 
 /*Menu*/
 #menu {
@@ -136,6 +148,10 @@ nav.navbar {
             transform: scale(1.05) translateZ(0px)
         }
 
+        nav.navbar{
+            margin-left: 290px;
+        }
+
 /*Profile Picture*/
 img.profile-picture {
     width: 45px;
@@ -183,6 +199,45 @@ img.profile-picture {
         width: 100%;
         background-color: inherit;
     }
+
+#sidebar-toggler {
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+    #sidebar-toggler:hover {
+        cursor: pointer;
+        background-color: #48545f14;
+        transform: scale(1.05) translateZ(0px);
+    }
+
+#sidebar.e-close {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+    #sidebar.e-close .app-logo {
+        display: none;
+    }
+
+    #sidebar.e-close .e-anchor-wrap, #sidebar.e-close .e-menu-item.e-menu-caret-icon {
+        font-size: 0px;
+    }
+
+    #sidebar.e-close .profile-wrapper .titles {
+        display: none !important;
+    }
+
+    #sidebar.e-open .e-anchor-wrap,
+    #sidebar.e-close .e-menu-item, #sidebar.e-open .e-menu-icon {
+        visibility: visible;
+    }
+
+#sidebar.e-open .profile-wrapper .titles, #sidebar.e0open .app-logo {
+    display: flex;
+}
 
 /*Widget*/
 .widget {

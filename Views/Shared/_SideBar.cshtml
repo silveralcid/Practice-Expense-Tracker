@@ -49,8 +49,16 @@
     });
 }
 
-<ejs-sidebar id="sidebar" width="290px">
+<ejs-sidebar id="sidebar" width="290px" enableDock dockSize="100px">
     <e-content-template>
+
+        <div class="logo-wrapper">
+            <div class="app-logo">
+                <img src="~/favicon-32x32.png" />
+            </div>
+            <div class="w-100"></div>
+            <i id="sidebar-toggler" class="fa-solid fa-angles-left"></i>
+        </div>
 
         <div class="profile-wrapper">
             <img class="profile-picture" src="~/profilepicture.jpg" />
@@ -67,3 +75,12 @@
         </ejs-menu>
     </e-content-template>
 </ejs-sidebar>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        dockBar = document.getElementById('sidebar').ej2_instances[0];
+        document.getElementById('sidebar-toggler').onclick = function () {
+            dockBar.toggle();
+        };
+    });
+</script>
