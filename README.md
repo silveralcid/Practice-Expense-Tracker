@@ -3,7 +3,7 @@
 <h3 align="center">Expense Tracker</h3>
 
   <p align="center">
-    Practice Project - ???
+    Practice Project - ASP.NET MVC
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
