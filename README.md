@@ -17,7 +17,10 @@
 
 ### Built With
 
-* ???
+* C#
+* ASP.NET MVC
+* SQL Express
+* Syncfusion UI
 
 ## Project Information
 Determined to be prepared for my journey at Western Governer's University, I decided to tackle the technologies I knew was going to be part of the curriculum.
